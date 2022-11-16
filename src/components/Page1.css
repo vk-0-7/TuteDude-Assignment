@@ -1,18 +1,19 @@
-
-body,html{
+body,
+html {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-.firstelem{
+
+.firstelem {
     position: relative;
     top: 30px;
     left: 180px;
 }
 
-.earning-box{
+.earning-box {
     position: relative;
     top: 50px;
     left: 170px;
@@ -24,16 +25,19 @@ body,html{
     padding: 20px 25px;
     box-shadow: 1px 1px 10px rgb(170, 167, 167);
 }
-#box{
+
+#box {
     height: 90px;
     width: 140px;
     /* border: 1px solid green; */
 }
-#box p{
+
+#box p {
     font-size: 1.12rem;
     color: rgb(128, 0, 128);
 }
-.but{
+
+.but {
     position: absolute;
     top: 130px;
     left: 150px;
@@ -45,7 +49,8 @@ body,html{
     padding: 9px 2px 4px 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.referal-code{
+
+.referal-code {
     position: relative;
     bottom: 178px;
     left: 720px;
@@ -54,14 +59,15 @@ body,html{
     /* border: 1px solid red; */
 }
 
-.referal-code p{
+.referal-code p {
     font-size: 1.8rem;
     margin: 5px 5px;
     color: rgb(128, 0, 128);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
 }
- .code{
+
+.code {
     width: 320px;
     height: 50px;
     color: rgb(128, 0, 128);
@@ -72,7 +78,7 @@ body,html{
     color: rgb(128, 0, 128);
 }
 
-.work{
+.work {
     position: relative;
     bottom: 130px;
     left: 170px;
@@ -81,12 +87,13 @@ body,html{
     /* border: 1px solid red; */
 }
 
-.workbox-main{
+.workbox-main {
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid black; */
 }
-#workbox{
+
+#workbox {
     height: 80px;
     width: 350px;
     /* border: 1px solid red; */
@@ -95,33 +102,36 @@ body,html{
     padding: 2px 0px;
 }
 
-#icon{
+#icon {
     height: 60px;
     width: 60px;
     /* border: 1px solid green; */
     margin: 7px 10px 7px 1px;
     border-radius: 40px;
     background-color: rgb(210, 210, 210);
-    
+
 }
-#icon svg{
+
+#icon svg {
     height: 32px;
     width: 35px;
     margin: 12px 1px 2px 12px;
     color: rgb(128, 0, 128);
     /* background: -webkit-linear-gradient(#eee, #333); */
 }
-#text{
+
+#text {
     /* border: 1px solid red; */
     padding: 5px;
-    
+
 }
-#text h5{
+
+#text h5 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 0.85rem;
 }
 
-.last{ 
+.last {
     position: relative;
     bottom: 100px;
     left: 170px;
@@ -137,15 +147,15 @@ body,html{
 }
 
 
-@media (max-width:450px){
-    
-    .firstelem{
+@media (max-width:440px) {
+
+    .firstelem {
         position: relative;
         top: 30px;
         left: 40px;
     }
 
-    .earning-box{
+    .earning-box {
         position: relative;
         top: 50px;
         left: 33px;
@@ -158,85 +168,208 @@ body,html{
         padding: 20px 25px;
         box-shadow: 1px 1px 10px rgb(170, 167, 167);
     }
-    #box{
+
+    #box {
         height: 90px;
         width: 140px;
         /* border: 1px solid green; */
 
     }
-    #box p{
+
+    #box p {
         font-size: 1.1rem;
         color: rgb(128, 0, 128);
     }
-    .but{
+
+    .but {
         position: absolute;
         top: 135px;
         left: 170px;
         height: 40px;
         width: 150px;
-      
+
         padding: 12px 2px 4px 13px;
-        
+
     }
-    .but h3{
+
+    .but h3 {
         font-size: 0.9rem;
     }
 
-    .referal-code{
+    .referal-code {
         position: relative;
         top: 70px;
         left: 40px;
-       
+
         /* border: 1px solid red; */
     }
 
-    .referal-code p{
+    .referal-code p {
         font-size: 1.4rem;
         margin: 3px 5px;
-       
-       
+
+
     }
-     .code{
+
+    .code {
         width: 320px;
         height: 45px;
         color: rgb(128, 0, 128);
         margin: 10px 0px;
-        
+
         padding: 3px 0px 2px 50px;
-        
+
     }
-    .work{
+
+    .work {
         position: relative;
         bottom: 30px;
         left: 30px;
-        height:max-content;
+        height: max-content;
         width: 380px;
         /* border: 1px solid red; */
-        
+
     }
-    #workbox{
+
+    #workbox {
         height: 80px;
         width: 350px;
-        
+
         margin: 10px 10px;
-       
-        
+
+
         padding: 2px 0px;
     }
-    
-   
-    
-   
-    
-    .last{ 
+
+
+
+
+
+    .last {
         position: relative;
         bottom: 10px;
         left: 50px;
         /* border: 1px solid red; */
-       
+
         line-height: 30px;
-       
+
         font-size: 1.1rem;
-       
+
+    }
+}
+
+@media (max-width:380px) {
+
+    .firstelem {
+        position: relative;
+        top: 30px;
+        left: 40px;
+    }
+
+    .earning-box {
+        position: relative;
+        top: 50px;
+        left: 28px;
+        height: 230px;
+        width: 84vw;
+        padding: 20px 20px;
+
+    }
+
+    #box {
+        height: 90px;
+        width: 130px;
+        padding-left: 10px;
+
+
+    }
+
+    #box p {
+        font-size: 1.05rem;
+        color: rgb(128, 0, 128);
+    }
+
+    #box h1 {
+        font-size: 2rem;
+        text-align: center;
+        /* margin-right: 10px; */
+    }
+
+    .but {
+        position: absolute;
+        top: 135px;
+        left: 145px;
+        height: 40px;
+        width: 150px;
+
+        padding: 12px 2px 4px 13px;
+
+    }
+
+    .but h3 {
+        font-size: 0.9rem;
+    }
+
+    .referal-code {
+        position: relative;
+        top: 70px;
+        left: 40px;
+
+        /* border: 1px solid red; */
+    }
+
+    .referal-code p {
+        font-size: 1.2rem;
+        margin: 3px 5px;
+
+
+    }
+
+    .code {
+        width: 83vw;
+        height: 45px;
+        color: rgb(128, 0, 128);
+        margin: 10px 0px;
+
+        padding: 3px 0px 2px 40px;
+
+    }
+
+    .work {
+        position: relative;
+        bottom: 30px;
+        left: 27px;
+        height: max-content;
+        width: 92vw;
+        /* border: 1px solid red; */
+
+    }
+
+    #workbox {
+        height: 75px;
+        width: 350px;
+
+        margin: 10px 10px;
+
+
+        padding: 2px 0px;
+    }
+
+
+    .last {
+        position: relative;
+        bottom: 10px;
+        left: 50px;
+        /* border: 1px solid red; */
+
+        line-height: 30px;
+
+        font-size: 1.1rem;
+
+    }
+
+    .last p {
+        text-decoration: none;
+        color: #800080;
     }
 }

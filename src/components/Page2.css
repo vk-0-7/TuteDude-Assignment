@@ -213,3 +213,64 @@ body,html{
     }
     
 }
+@media(max-width:380px){
+
+
+    .referal-code-page2{
+        left: 18px;
+        height: 230px;
+        width: 40vw;
+        /* border: 1px solid red; */
+    }
+    
+    .referal-code-page2 p{
+        font-size: 1.05rem;
+        margin: 5px 3px;
+        
+    }
+     .code-page2{
+        width: 45vw;
+        height: 30px;
+        font-size: 0.6rem;
+        margin: 10px 0px;
+        
+    }
+    .boxes-page2{
+        height: 80px;
+        width: 130px;
+        
+        padding:5px 10px;
+        bottom: 90px;
+        left: 195px;
+    }
+    .boxes-page2 p{
+        font-size: 0.9rem;
+    }
+    .enrolled-boxes{
+        width: 90vw;
+        
+    }
+    .enrolled{
+        width: max-content;
+    }
+    .enrolled h2{
+        font-size: 1.3rem;
+        
+    }
+    .tandc{
+        width: 50vw;
+      
+        padding-bottom: 20px;
+    }
+    .tandc h3{
+        margin-bottom: 10px;
+    }
+    
+    .tandc h3{
+        
+         font-size: 1.1rem;
+         margin-bottom: 10px;
+         
+    }
+    
+}
