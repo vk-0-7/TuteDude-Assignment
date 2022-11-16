@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Page2 = () => {
   return (
-    <>
+    <div className='main-body'>
       <div className="firstelem">
         <p> UI/UX {'>'} Refer & Earn {'>'} Friends referred</p>
       </div>
@@ -91,7 +91,7 @@ const Page2 = () => {
     
     
     
-    </>
+    </div>
   )
 }
 
